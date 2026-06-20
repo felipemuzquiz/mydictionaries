@@ -207,3 +207,17 @@ ProduceDictionary={
     }
 }
 
+# We have a dictionary of produce with their per unit cost, the number of units sold and the total. We want to verify that the total is accurate
+# since it was manually entered. Print out the details of any produce that has in inaccurate total. Print both the stated total from the dictionary
+# as well as the calculated total that shows the discrepancy.
+
+for item in ProduceDictionary:
+    calculation = ProduceDictionary[item]['cost'] * ProduceDictionary[item]['amt_sold']
+
+    if round(calculation,2) != ProduceDictionary[item]['total']:
+        total = ProduceDictionary[item]['total']
+
+        print(f'Inaccurate total for {item}')
+        print(f'Inaccurate total is: {total}')
+        print(f'Actual total is: {calculation:.2f}')
+        print()
