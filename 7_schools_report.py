@@ -68,3 +68,5 @@ for school in schools:
     if price is not None and price > 60000:
         print(f"{name}\n Total Price for in-state students living off campus: ${price:,}")
         print()
+
+        

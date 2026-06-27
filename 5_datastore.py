@@ -16,8 +16,6 @@ room-number,use,sq-ft,price
 '''
 
 
-
-
 datastore = { "medical":[
       { "room-number": 100,
         "use": "reception",

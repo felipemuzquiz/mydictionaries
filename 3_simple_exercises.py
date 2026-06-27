@@ -24,7 +24,6 @@ dict["son's height"] += 2
 print(dict)
 
 
-
 # 3) Given a Python dictionary, Change Brad’s salary to 8500
 
 sampleDict = {
@@ -35,8 +34,6 @@ sampleDict = {
 
 sampleDict["emp3"]["salary"] = 8500
 print(sampleDict)
-
-
 
 
 # 4 )Given the dictionary below, add a new key - 'work' with the values shown below:

@@ -8,12 +8,14 @@ person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
 #print(person)
 
+
 # print out the name of the second child
 print(person["children"][1])
 print(type(person["children"]))
 
 list_of_children = person["children"]
 print(list_of_children)
+
 
 # print out the name of the cat
 dict_of_pets = person["pets"]
@@ -25,7 +27,6 @@ print(person['pets']['cat'])
 # use a loop to print out the names of each child
 for name in person["children"]:
     print(name)
-
 
 
 # use a loop to print out the pets in the following format:
